@@ -16,7 +16,7 @@ func Test(t *testing.T) {
 	}
 	for _, tC := range testCases {
 		t.Run(tC.desc, func(t *testing.T) {
-			res := CountArrayItems(tC.inputlist)
+			res := CountArrayItemsBruteForce(tC.inputlist)
 			if res != tC.expected {
 				t.Errorf("Expected: %d, but got %d", tC.expected, res)
 			}
