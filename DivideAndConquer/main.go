@@ -7,7 +7,7 @@ func CountArrayItemsBruteForce(input []int) int {
 	count := 0
 	for i := range input {
 		count++
-		fmt.Printf("ï: %d", i)
+		fmt.Printf("ï: %d\n", i)
 	}
 
 	return count

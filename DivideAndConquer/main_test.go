@@ -13,6 +13,16 @@ func Test(t *testing.T) {
 			inputlist: []int{},
 			expected:  0,
 		},
+		{
+			desc:      "One item",
+			inputlist: []int{6},
+			expected:  1,
+		},
+		{
+			desc:      "Three items",
+			inputlist: []int{1, 2, 3},
+			expected:  3,
+		},
 	}
 	for _, tC := range testCases {
 		t.Run(tC.desc, func(t *testing.T) {
