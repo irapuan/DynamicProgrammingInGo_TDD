@@ -1,7 +1,8 @@
 canSum/*
 Fibonacci/*
 GridTraveler/*
+DivideAndConquer/*
 !canSum/*.go
 !Fibonacci/*.go
 !GridTraveler/*.go
-
+!DivideAndConquer/*.go
