@@ -2,6 +2,10 @@ canSum/*
 Fibonacci/*
 GridTraveler/*
 DivideAndConquer/*
+Sliding Window/*
+dayone/*
+!Sliding Windows/*.go
+!dayone/*.go
 !canSum/*.go
 !Fibonacci/*.go
 !GridTraveler/*.go
